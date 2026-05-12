@@ -1,6 +1,6 @@
 cask "proofpad" do
-  version "0.1.6"
-  sha256 "227fe32da51aa96cae30c8810465a759a1097962b28860c658090d00981228d6"
+  version "0.1.7"
+  sha256 "d36b7965d48e2dbd3a245aad6de90d2cff1a5ffbe296b2a82681cd8ae690561c"
 
   url "https://github.com/gjaku1031/ProofPad/releases/download/v#{version}/ProofPad-#{version}.dmg"
   name "ProofPad"
