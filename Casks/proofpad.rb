@@ -1,6 +1,6 @@
 cask "proofpad" do
-  version "0.1.7"
-  sha256 "d36b7965d48e2dbd3a245aad6de90d2cff1a5ffbe296b2a82681cd8ae690561c"
+  version "0.1.8"
+  sha256 "2ad4499baae8405eba4addd8f961757468271cf344998cfc26f9d5c5a9f972ea"
 
   url "https://github.com/gjaku1031/ProofPad/releases/download/v#{version}/ProofPad-#{version}.dmg"
   name "ProofPad"
@@ -8,6 +8,7 @@ cask "proofpad" do
   homepage "https://github.com/gjaku1031/ProofPad"
 
   auto_updates true
+  depends_on macos: :ventura
 
   app "ProofPad.app"
 
