@@ -1,14 +1,5 @@
 # ProofPad Homebrew Tap
 
-Personal Homebrew tap for [ProofPad](https://github.com/gjaku1031/ProofPad).
+This Homebrew tap is deprecated and no longer distributes ProofPad.
 
-```sh
-brew install --cask gjaku1031/proofpad/proofpad
-```
-
-ProofPad uses Sparkle for in-app updates. Homebrew is mainly for first install and for manual update checks:
-
-```sh
-brew update
-brew upgrade --cask --greedy proofpad
-```
+Use the DMG published from the main [ProofPad](https://github.com/gjaku1031/ProofPad) repository's GitHub Releases, or use ProofPad's in-app Sparkle update flow.
